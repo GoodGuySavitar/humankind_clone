@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ /* !------------------------------------------------UTILITY CLASSES-------------------------------------------------------------- */
+ 
+ @font-face {
+     font-family: TTCommonsPro;
+     src: url(../humankind_clone/Humankind_Assets/fonts/TTCommonsProXBd.woff);
+}
+
+@font-face {
+    font-family: Light_TTCommons;
+    src: url(../humankind_clone/Humankind_Assets/fonts/TTCommonsProRg.woff);
+}
+
+@font-face {
+    font-family: Font3;
+    src: url(../humankind_clone/Humankind_Assets/fonts/62bd9a2a997cdac9ef813452_font.woff);
+}
+
+.btn-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+    border: 3px solid black;
+    margin: 0.5rem 0;
+    border-radius: 3rem;
+    color: white;
+    background-color: black;
+    font-family: Font3;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    background-color: #E84700;
+    transform: translate(2px,-2px);
+    box-shadow: -1.5px 1.5px 0px black;
+}
+
+.btn-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+    border: 3px solid black;
+    margin: 0.5rem 0;
+    border-radius: 3rem;
+    color: black;
+    background-color: white;
+    font-family: Font3;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.btn-secondary:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: translate(2px,-2px);
+    box-shadow: -1.5px 1.5px 0px black;
+}
+
+/* !------------------------------------------------UTILITY CLASSES END-------------------------------------------------------------- */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 0 20px;
+}
+
+/*!--------------------------------------------------NAV BAR--------------------------------------------------------------------------- */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: TTCommonsPro;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 1.25rem;
+    background-color: white;
+    z-index: 100;
+}
+
+.nav-name {
+    display: flex;
+    padding-top: 8px;
+}
+
+.nav-img {
+    display: flex;
+    margin-right: 0.8rem;
+    width: 2.4rem;
+    max-width: 2.4rem;
+    max-height: 2rem;
+    padding-top: 0.2rem ;
+}
+
+.nav-icon-text {
+    padding-top: 0.4rem;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.nav-others {
+    display: flex;
+    font-family: TTCommonsPro, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+}
+
+.nav-links:hover {
+    color: gray;
+    transition: 150ms ease;
+}
+
+.nav-links , .comm-dropdown{ 
+    margin-right: 0.3rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.comm-hover{
+    display: none;
+    padding: 0.8rem;
+}
+
+.comm-dropdown:hover .comm-hover{
+    display: block;
+    position: absolute; 
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1.1rem;
+    z-index: 99;
+}
+
+.comm-hover div:hover{
+    color: gray;
+}
+.comm-hover div {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.comm-hover div:last-child {
+    margin-bottom: 0;
+}
+
+.comm-hover {
+    padding-top: 5px;
+    z-index: 100;
+    background-color: white;
+}
+
+/* !----------------------------------------------------HEADER--------------------------------------------------------------------- */
+
+.header {
+    margin-top: 160px ;
+    margin-bottom: 150px;
+}
+
+.header-img {
+    margin: 0 0 50px 50px ;
+    position: relative;
+}
+
+.human-img {
+    padding-right: 3rem;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 220px;
+}
+
+.kind-img {
+    width: 100%;
+    padding-right: 3rem;
+    position: absolute;  
+    top: 10%;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 28px;
+}
+
+.header-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.get-btn, .burn-btn {
+    margin-right: 5px;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.header-text-bottom {
+    text-align: center;
+    font-size: 18px;
+}
