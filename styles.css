@@ -345,3 +345,64 @@ body {
     font-size: 16px;
 }
 
+.content-3 {
+    background-color: #F2F4F4;
+    padding: 100px 0;
+}
+
+.box-content-3 {
+    border: 4px solid black;
+    display: grid;
+    border-radius:20px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    padding: 50px;
+    margin: 0 220px;
+    background-color: white;
+}
+
+.img-content-3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.img-3 {
+    height:100%;
+}
+
+.text-content-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading-content-3 {
+    font-family: TTCommonsPro, sans-serif;
+    font-size: 2.125rem;
+    margin-bottom: 10px;
+}
+
+.desc-content-3 {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.btn-container-content-3 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.btn-opensea {
+    font-size: 16px;
+    padding: 15px 20px;
+    margin-right: 5px;
+}
+
+.btn-learn-more-2 {
+    font-size: 16px;
+    padding: 15px 22px;
+}
