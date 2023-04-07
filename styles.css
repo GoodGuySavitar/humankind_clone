@@ -8,17 +8,17 @@
  
  @font-face {
      font-family: TTCommonsPro;
-     src: url(../Humankind_Assets/fonts/TTCommonsProXBd.woff);
+     src: url(../humankind_clone/Humankind_Assets/fonts/TTCommonsProXBd.woff);
 }
 
 @font-face {
     font-family: Light_TTCommons;
-    src: url(../Humankind_Assets/fonts/TTCommonsProRg.woff);
+    src: url(../humankind_clone/Humankind_Assets/fonts/TTCommonsProRg.woff);
 }
 
 @font-face {
     font-family: Font3;
-    src: url(../Humankind_Assets/fonts/62bd9a2a997cdac9ef813452_font.woff);
+    src: url(../humankind_clone/Humankind_Assets/fonts/62bd9a2a997cdac9ef813452_font.woff);
 }
 
 .btn-primary{
@@ -429,7 +429,7 @@ body {
 }
 
 .content-4 {
-    background-image: url("../Humankind_Assets/images/Projects_20Section.png");
+    background-image: url("../humankind_clone/Humankind_Assets/images/Projects_20Section.png");
     background-size: 40%;
     width: 100%;
     height: 100%;
@@ -531,7 +531,7 @@ body {
 }
 
 .content-5 {
-    background-image: url(../Humankind_Assets/images/Projects_20Section.png);
+    background-image: url(../humankind_clone/Humankind_Assets/images/Projects_20Section.png);
     background-size: 60%;
     width: 100%;
     height: 100%;
@@ -542,7 +542,7 @@ body {
 }
     
 .back-img-2 {
-    background-image: url(../Humankind_Assets/images/Projects_20Section.png);
+    background-image: url(../humankind_clone/Humankind_Assets/images/Projects_20Section.png);
     background-size: 15%;
     width: 400%;
     height: 200px;
@@ -634,7 +634,7 @@ body {
 }
 
 .content-7 {
-    background-image: url(../Humankind_Assets/images/home-background.png);
+    background-image: url(../humankind_clone/Humankind_Assets/images/home-background.png);
     background-size: 100%;
     width: 100%;
     height: 115%;
