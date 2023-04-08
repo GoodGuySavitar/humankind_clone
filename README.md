@@ -1,6 +1,6 @@
 # humankind_clone
 
-https://goodguysavitar.github.io/humankind_clone/
+SITE LINK- https://goodguysavitar.github.io/humankind_clone/
 
 
 ![Screenshot 2023-04-08 134700](https://user-images.githubusercontent.com/111289318/230711398-f93993b7-dfee-4f45-a76d-239361774cb1.png)
